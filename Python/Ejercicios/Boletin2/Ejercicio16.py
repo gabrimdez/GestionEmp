@@ -1,0 +1,1 @@
+firstLetter = lambda text : text[0]
