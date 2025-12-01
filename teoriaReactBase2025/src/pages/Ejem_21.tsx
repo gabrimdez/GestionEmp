@@ -1,3 +1,9 @@
+import { useParams } from "react-router-dom"
+
 export default function Ejem_21(){
-    return<div></div>
+
+    const {id} = useParams()
+    return <div>
+        mostarndo el usuario {id}
+    </div>
 }

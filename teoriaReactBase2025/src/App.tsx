@@ -5,6 +5,7 @@ import NotFound from "./pages/NotFound";
 import Home from "./pages/Home";
 import { routes } from "./routes/routesConfig";
 import { Suspense } from "react";
+import Ejem_21 from "./pages/Ejem_21";
 
 function App() {
   return (
@@ -23,6 +24,8 @@ function App() {
               ))}
             
             <Route path="*" element={<NotFound />} />
+            <Route path="Ejem21/:id" element={<Ejem_21 />} />
+
           </Route>
         </Routes>
       </Suspense>

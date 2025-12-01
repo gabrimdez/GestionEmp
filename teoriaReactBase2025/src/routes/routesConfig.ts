@@ -175,5 +175,11 @@ export const routes = [
     description: "",
     component: React.lazy(() => import("../pages/Ejercicio_07")),
   },
+  {
+    to: "Ejercicio08",
+    title: "API",
+    description: "",
+    component: React.lazy(() => import("../pages/Ejercicio_08")),
+  },
   
 ];

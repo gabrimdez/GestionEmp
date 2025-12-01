@@ -1,6 +1,5 @@
 from connect import get_connection
 
-
 def show_table():
     conn = get_connection()
     try:
