@@ -1,9 +1,7 @@
-import { useParams } from "react-router-dom"
+import { useParams } from "react-router-dom";
 
-export default function Ejem_21(){
+export default function Ejem_21() {
+  const { id } = useParams();
 
-    const {id} = useParams()
-    return <div>
-        mostarndo el usuario {id}
-    </div>
+  return <div>Monstrando el usuario {id}</div>;
 }

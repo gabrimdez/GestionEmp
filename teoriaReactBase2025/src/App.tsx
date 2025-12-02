@@ -22,10 +22,8 @@ function App() {
               .map(({ to, component: Component }) => (
                 <Route key={to} path={to || ""} element={<Component />} />
               ))}
-            
+            <Route path="Ejem21/:id" element={<Ejem_21/>} />
             <Route path="*" element={<NotFound />} />
-            <Route path="Ejem21/:id" element={<Ejem_21 />} />
-
           </Route>
         </Routes>
       </Suspense>

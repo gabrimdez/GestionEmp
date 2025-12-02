@@ -6,8 +6,8 @@ function Menu() {
       <ul className="flex flex-wrap gap-3 justify-center px-4">
         {[
           "Ejem1","Ejem2","Ejem3","Ejem4","Ejem5","Ejem6","Ejem7","Ejem8","Ejem9","Ejem10",
-          "Ejem11","Ejem12","Ejem13","Ejem14","Ejem15","Ejem16","Ejem17","Ejem18","Ejem19","Ejem20","Ejem21",
-          "Ejercicio01","Ejercicio02","Ejercicio03","Ejercicio04","Ejercicio05","Ejercicio06","Ejercicio07", "Ejercicio08"
+          "Ejem11","Ejem12","Ejem13","Ejem14","Ejem15","Ejem16","Ejem17","Ejem18","Ejem19","Ejem20","Ejem21","Ejem22","Ejem23","Ejem24",
+          "Ejercicio01","Ejercicio02","Ejercicio03","Ejercicio04","Ejercicio05","Ejercicio06","Ejercicio07", "Ejercicio08","Ejercicio09","Ejercicio10"
         ].map((item) => (
           <li key={item}>
             <Link
