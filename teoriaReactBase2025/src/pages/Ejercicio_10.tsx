@@ -1,18 +1,22 @@
 /*
-Crea un componente que tenga una caja de texto.
-Cuando el usuario escriba un texto que tenga 5 caracteres, se mostrará 
-un mensaje en la consola indicando: "¡Has escrito 5 caracteres!".
+Crea una aplicación en React que simule un sistema muy sencillo de login usando 
+Context para compartir la información del usuario por toda la app.
 
-El componente también mostrará en pantalla (debajo de la caja de texto) 
-el número de caracteres escritos en la caja de texto (length).
+Requisitos funcionales:
+
+Debe existir un UserContext que guarde:
+    - El usuario actual (por ejemplo: { name: "Ana", role: "admin" }), o null si no hay sesión.
+    - Una función login(user) para establecer el usuario.
+    - Una función logout() para cerrar sesión.
 */
 
 import { useState } from "react"
 
-export default function Ejercicio10() {
-  const [txt , setTxt] = useState('')
+const UserContext = 
 
-  return (
-    <input value={txt} />
-  )
+export default function Ejercicio10() {
+  
+  return <div>
+
+  </div>
 }
